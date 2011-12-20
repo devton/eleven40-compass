@@ -19,6 +19,10 @@ $mobile: false;
   @else if $number_of_columns == 16 { @include eleven40-sixteencol; }
 }
 
+@mixin last {
+  @include eleven40-last;
+}
+
 @mixin container {
   @include eleven40-container;
 }
