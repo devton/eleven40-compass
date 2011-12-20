@@ -4,12 +4,12 @@ Gem::Specification.new do |s|
   s.date = "2010-12-03"
 
   # Gem Details
-  s.name = "eleven40"
-  s.authors = ["Jeremy Bush"]
-  s.summary = %q{a cssgrid implementation in compass}
-  s.description = %q{a cssgrid implementation in compass}
-  s.email = "contractfrombelow@gmail.com"
-  s.homepage = "https://github.com/zombor/eleven40-compass"
+  s.name = "eleven40_16"
+  s.authors = ["Jeremy Bush", "Antônio Roberto"]
+  s.summary = %q{a 16 column cssgrid implementation in compass based in eleven40}
+  s.description = %q{a 16 column cssgrid implementation in compass based in eleven40}
+  s.email = "forevertonny@gmail.com"
+  s.homepage = "https://github.com/devton/eleven40-compass"
 
   # Gem Files
   s.files = %w(README.md)
