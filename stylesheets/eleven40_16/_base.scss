@@ -1,5 +1,32 @@
 $mobile: false;
 
+@mixin grid($number_of_columns) {
+  @if $number_of_columns == 1  { @include eleven40-onecol; }
+  @else if $number_of_columns == 2 { @include eleven40-twocol; }
+  @else if $number_of_columns == 3 { @include eleven40-threecol; }
+  @else if $number_of_columns == 4 { @include eleven40-fourcol; }
+  @else if $number_of_columns == 5 { @include eleven40-fivecol; }
+  @else if $number_of_columns == 6 { @include eleven40-sixcol; }
+  @else if $number_of_columns == 7 { @include eleven40-sevencol; }
+  @else if $number_of_columns == 8 { @include eleven40-eightcol; }
+  @else if $number_of_columns == 9 { @include eleven40-ninecol; }
+  @else if $number_of_columns == 10 { @include eleven40-tencol; }
+  @else if $number_of_columns == 11 { @include eleven40-elevencol; }
+  @else if $number_of_columns == 12 { @include eleven40-twelvecol; }
+  @else if $number_of_columns == 13 { @include eleven40-thirteencol; }
+  @else if $number_of_columns == 14 { @include eleven40-fourteencol; }
+  @else if $number_of_columns == 15 { @include eleven40-fifteencol; }
+  @else if $number_of_columns == 16 { @include eleven40-sixteencol; }
+}
+
+@mixin containger {
+  @include eleven40-container;
+}
+
+@mixin row {
+  @include eleven40-row;
+}
+
 @mixin eleven40-container {
   @if $mobile == true
   {
