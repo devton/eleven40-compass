@@ -17,6 +17,7 @@ gem install eleven40_16
 Use 
 
 @include grid(num_of_columns)
+
 @include row
 
 For example:
