@@ -67,6 +67,10 @@ $grid960: false;
   {
     @include eleven40-mobile-column;
   }
+  @else if $grid960 == true
+  {
+    @include eleven40-960-column($default-width);
+  }
   @else
   {
     width: $default-width;

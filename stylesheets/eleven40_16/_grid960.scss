@@ -6,3 +6,9 @@ $grid960: true;
   margin: 0 auto;
   overflow: hidden;
 }
+
+@mixin eleven40-960-column($default-width) {
+  width: $default-width;
+  margin-right: 2.5%;
+  float: left;
+}
