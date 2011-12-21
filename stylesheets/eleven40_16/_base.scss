@@ -1,5 +1,5 @@
 $mobile: false;
-$960: false;
+$grid960: false;
 
 @mixin grid($number_of_columns) {
   @if $number_of_columns == 1  { @include eleven40-onecol; }
@@ -52,7 +52,7 @@ $960: false;
   @else
   {
     width: 100%;
-    @if $960 ==  true
+    @if($grid960 == true)
     {
       max-width: 960px;
     }
