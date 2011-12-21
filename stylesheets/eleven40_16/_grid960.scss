@@ -1,0 +1,8 @@
+$grid960: true;
+
+@mixin eleven40-960 {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  overflow: hidden;
+}

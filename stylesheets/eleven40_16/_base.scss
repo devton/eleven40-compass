@@ -49,17 +49,13 @@ $grid960: false;
   {
     @include eleven40-mobile-full;
   }
-  @else
+  @else if $grid960 == true
   {
+    @include eleven40-960;
+  }
+  @else {
+    max-width: 1140px;
     width: 100%;
-    @if($grid960 == true)
-    {
-      max-width: 960px;
-    }
-    @else
-    {
-      max-width: 1140px;
-    }
     margin: 0 auto;
     overflow: hidden;
   }
